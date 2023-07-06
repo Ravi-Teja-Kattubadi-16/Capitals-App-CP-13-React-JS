@@ -1,0 +1,112 @@
+/* Write your CSS here */
+.app-container {
+  background-color: #93c5fd;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.capitals-container {
+  background-color: #f8fafc;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-radius: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  height: 32%;
+  width: 95%;
+}
+@media (min-width: 768px) {
+  .capitals-container {
+    background-color: #f8fafc;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-radius: 15px;
+    padding-left: 65px;
+    padding-right: 65px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    height: 40%;
+    width: 45%;
+  }
+}
+.heading {
+  font-size: 27px;
+  font-weight: 600;
+  color: #323f4b;
+}
+@media (min-width: 768px) {
+  .heading {
+    font-size: 32px;
+    font-weight: 600;
+    color: #323f4b;
+  }
+}
+.inner-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+.select-container {
+  height: 90%;
+  width: 40%;
+  padding-left: 10px;
+  font-size: 17px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  border: 2px solid #cbd2d9;
+  border-radius: 5px;
+  background-color: #f8fafc;
+  margin-right: 10px;
+  color: #000000;
+  outline: none;
+}
+@media (min-width: 768px) {
+  .select-container {
+    height: 80%;
+    width: 40%;
+    padding-left: 20px;
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    border: 2px solid #cbd2d9;
+    border-radius: 5px;
+    background-color: #f8fafc;
+    margin-right: 10px;
+    color: #000000;
+    outline: none;
+  }
+}
+.description {
+  font-size: 15px;
+  font-weight: 400;
+}
+@media (min-width: 768px) {
+  .description {
+    font-size: 20px;
+    font-weight: 400;
+  }
+}
+.country-name {
+  font-size: 22px;
+  font-weight: bold;
+  color: #1e293b;
+}
+@media (min-width: 768px) {
+  .country-name {
+    font-size: 25px;
+    font-weight: bold;
+    color: #1e293b;
+  }
+}
